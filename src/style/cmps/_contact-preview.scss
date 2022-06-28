@@ -1,0 +1,58 @@
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contact-item{
+    background-color:var(--clr4);
+    border: 1px solid var(--clr5);
+    margin-block-end: 0.5rem;
+    padding: 0.3rem;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    .contact-item-img{
+    width: 10%;
+    }
+    .contact-item-name{
+    flex: 2;
+    font-size: 1.2rem;
+    text-align: start;
+    margin-inline-start: 2rem;
+    text-decoration: none;
+    }
+    .contact-item-delete-btn{
+        visibility:hidden;
+        padding: 3px 10px;
+    }
+    &:hover{
+        transform: scale(1.02);
+        .contact-item-delete-btn{
+            visibility:visible;
+        }
+    }
+    @media only screen and (max-width:  768px){
+        width: 70%;
+        padding: 0.4rem;
+        .contact-item-name{
+            font-size: 0.95rem;
+            margin-inline-start: 1rem;
+        }
+        .contact-item-delete-btn{
+            visibility:visible;
+            padding: 2px;
+            font-size: 13px;
+        }
+    }
+}
+}
+
+
+
+
+
+

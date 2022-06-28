@@ -1,0 +1,66 @@
+.contact-detailes{
+    margin-top: 1.5rem;
+   .contact-detailes-btns{
+      display: flex;
+      justify-content: space-around;
+      margin-inline-start: 18%;
+      margin-inline-end: 18%;
+      .contact-detailes-edit-btn{
+        color: var(--clr4);
+      }
+ }
+   .user-box-details{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+   .contact-item-info{
+      text-align: start;
+      margin-top: 1rem;
+    >*{
+       margin-bottom: 1rem;
+       font-size: 1.3rem;
+    }
+ }
+}
+
+.transfer-fund-box{
+    text-align: center;
+    font-size: 1.15rem;
+    .transfer-fund-box-title{
+     border-bottom: 1px solid var(--clr3);
+     display:inline; 
+     padding-bottom: 3px;
+    }
+    .transfer-fund-box-input-box{
+
+        margin-top: 5px;
+      .transfer-fund-box-input{
+        padding: 5px;
+        padding-inline-start: 20px;
+     }
+     .transfer-fund-box-btn{
+        padding: 5px;
+    }
+    }
+}
+
+.move-list-container{
+    margin-top: 2rem;
+    padding: 0.5em;
+    //mobile
+    @media only screen and (max-width: 600px) {
+      margin-inline-start: 5%;
+      margin-inline-end: 5%;
+    }
+    //medium-tablet
+    @media only screen and (min-width: 600px) {
+      margin-inline-start: 10%;
+      margin-inline-end: 10%;
+    }
+    //desktop
+    @media only screen and (min-width: 1200px) {
+      margin-inline-start: 30%;
+      margin-inline-end: 30%;
+    }
+}

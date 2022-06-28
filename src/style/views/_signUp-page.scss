@@ -1,0 +1,53 @@
+.sign-up-page{
+    width: 100%;
+    height: 100vh;
+    .sign-up-page-container{
+        position:absolute; 
+        top:40%; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+    }
+    .title{
+      line-height: 1.6;
+      letter-spacing: 1px;
+      font-size: 2.4rem;
+      .color{
+        color: var(--clr3);
+      }
+      &:last-of-type{
+        margin-bottom: 1.2rem;
+      }
+    }
+    .input{
+        padding:6px;
+        border-radius: 5px;
+        width:210px;
+        border: none;
+    }
+    @media only screen and (max-width: 600px) {
+      .sign-up-page-container{
+           padding: 2rem;
+        .sign-in-btn-container{
+          text-align: center;
+          margin-top:0.5rem;
+        }
+          .title{
+            line-height: 1.6;
+            letter-spacing: 1px;
+            font-size: 2.2rem;
+          .color{
+             color: var(--clr3);
+         }
+             &:last-of-type{
+                margin-bottom: 1.1rem;
+             }     
+        }
+          .sub-title{
+            font-size: 1rem;
+          }
+            .input{
+            margin-top: 0.5rem;
+        }
+      }
+    }
+}

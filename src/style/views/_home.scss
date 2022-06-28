@@ -1,0 +1,76 @@
+//desktop
+.home-page{
+  height: 95vh;
+  padding-top: 2rem;
+  .home-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .home-page-user-container{
+      border-bottom: 1px solid rgb(37, 205, 146);
+      width: 100%;
+    }
+    .finance-info-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-block-start: 0.5rem;
+      margin-block-end: 1rem;
+      .current-btc-blance-container{
+        .bit-coin-balance{
+          color: rgb(75, 204, 75);
+          
+        } 
+      }
+      .current-usd-blance-container{
+        text-align: center;
+        .bit-coin-rate{
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .home-page-chart{
+      width: 100%;
+      .market-price-chart{
+        width: 100%;
+      }
+    }
+    .moves-box{
+      width: 100%;
+    }
+  }
+}
+
+//mobile 
+@media only screen and (max-width:  768px) {
+  .home-page {
+     height: 90vh;
+    .home-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .home-page-user-container{
+      width: 100%;
+    }
+    .finance-info-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .current-btc-blance-container{
+        .bit-coin-balance{
+          color: rgb(75, 204, 75);
+        } 
+      }
+      .current-usd-blance-container{
+        text-align: center;
+      }
+    }
+    .home-page-chart{
+      width: 100%;
+    }
+    .moves-box{
+      width: 100%;
+    }
+  }
+  }
+}

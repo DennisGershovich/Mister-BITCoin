@@ -1,0 +1,20 @@
+//setup
+@import './setup/variables';
+@import'./base/layout';
+// Basics
+@import './base/base';
+
+// Views
+@import'./views/signUp-page';
+@import './views/home';
+@import './views/header';
+@import'./views//statistics';
+@import'./views//contactApp';
+@import'./views/_contact-edit';
+
+// Components
+@import'./cmps/contact-preview';
+@import'./cmps//move-list';
+@import'./cmps/contact-detailes';
+@import'./cmps/spinner';
+

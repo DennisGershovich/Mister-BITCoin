@@ -1,0 +1,50 @@
+.edit-contact-page{
+    padding: 5rem;
+    padding-top: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    @media only screen and (min-width: 600px) {
+        font-size: 2.5rem;
+    }
+    .edit-contact-page-title{
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid black;
+    }
+    .user-box-details{
+        text-align: start;
+        label{
+            font-size: 1.2rem;
+        }
+        input{
+            padding: 0.3em;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            color: var(--clr4);
+            &:focus{
+                outline: none;
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            label{
+                font-size: 1.4rem;
+            }
+            input{
+             padding: 0.2em;
+             border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            &:focus{
+                outline: none;
+            }
+        }
+         }
+    }
+    .btns-container{
+        margin-top: 4rem;
+    }
+}

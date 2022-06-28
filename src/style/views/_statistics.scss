@@ -1,0 +1,14 @@
+.statistics-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 65vh;
+}
+
+.market-price-chart{
+    height: 35%;
+    background-color: var(--clr5);
+    border-radius: 1px;
+}

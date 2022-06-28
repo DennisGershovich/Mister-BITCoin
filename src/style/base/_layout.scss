@@ -1,0 +1,47 @@
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-page {
+     padding-inline-start: 5%;
+     padding-inline-end: 5%
+    }
+    .market-price-chart{
+        width: 80%;   
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home-page{
+     padding-inline-start: 7%;
+     padding-inline-end: 7%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home-page{
+      padding-inline-start: 13%;
+      padding-inline-end: 13%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home-page{
+     padding-inline-start: 18%;
+     padding-inline-end: 18%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .home-page{
+     padding-inline-start: 30%;
+     padding-inline-end: 30%;
+    }
+    .market-price-chart{
+        width: 50%;
+        
+    }
+}
