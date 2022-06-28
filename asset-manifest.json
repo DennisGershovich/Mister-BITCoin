@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mister-BITCoin/static/css/main.fcc6b6fa.css",
+    "main.js": "/Mister-BITCoin/static/js/main.74880eb3.js",
+    "index.html": "/Mister-BITCoin/index.html",
+    "main.fcc6b6fa.css.map": "/Mister-BITCoin/static/css/main.fcc6b6fa.css.map",
+    "main.74880eb3.js.map": "/Mister-BITCoin/static/js/main.74880eb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcc6b6fa.css",
+    "static/js/main.74880eb3.js"
+  ]
+}
