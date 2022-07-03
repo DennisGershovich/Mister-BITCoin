@@ -8,10 +8,14 @@ Clone the repository:
 git clone https://github.com/DennisGershovich/Mister-BITCoin.git
 ```
 Enter the clonned folder:
+```
 cd Mister-BITCoin
-
+```
 Install the dependencies:
+```
 npm install
-
+```
 Run the application:
+```
 npm start
+```
