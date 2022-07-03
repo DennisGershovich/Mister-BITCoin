@@ -4,7 +4,7 @@ using Blockchain API for receiving real-time market data.
 
 ### How to install
 Clone the repository:
-``
+``html
 git clone https://github.com/DennisGershovich/Mister-BITCoin.git
 ``
 Enter the clonned folder:
