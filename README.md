@@ -1,5 +1,5 @@
 ## Mister-BITCoin
-Digital wallet (mobile friendly) for holding my bitcoins and sending (paying) them to my contacts.
+Digital wallet (mobile friendly) for holding my bitcoins and sending (paying) them to my contacts._
 using Blockchain API for receiving real-time market data.
 
 ### How to install
