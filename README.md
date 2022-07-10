@@ -3,7 +3,7 @@ Digital wallet (mobile friendly) for holding my bitcoins and sending (paying) th
 using Blockchain API for receiving real-time market data.
 
 ### Link
-[Github pages](https://github.com/DennisGershovich/Mister-BITCoin.git)
+[Github pages](https://dennisgershovich.github.io/Mister-BITCoin/)
 
 ### How to install
 Clone the repository:
